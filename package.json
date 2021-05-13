@@ -45,20 +45,20 @@
     "clear": "^0.1.0",
     "commander": "^7.2.0",
     "fast-sort": "^3.0.2",
-    "github-insights": "^1.1.1",
+    "github-insights": "^1.1.2",
     "ora": "^5.4.0"
   },
   "devDependencies": {
     "@kaaaxcreators/config": "^1.1.0",
     "@types/clear": "^0.1.1",
-    "@types/node": "^15.0.2",
-    "@typescript-eslint/eslint-plugin": "^4.22.1",
-    "@typescript-eslint/parser": "^4.22.1",
-    "eslint": "^7.25.0",
+    "@types/node": "^15.0.3",
+    "@typescript-eslint/eslint-plugin": "^4.23.0",
+    "@typescript-eslint/parser": "^4.23.0",
+    "eslint": "^7.26.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
-    "prettier": "^2.2.1",
+    "prettier": "^2.3.0",
     "typescript": "^4.2.4"
   }
 }

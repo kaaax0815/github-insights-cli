@@ -1,9 +1,8 @@
 import clear from 'clear';
 import { Command } from 'commander';
 import { sort } from 'fast-sort';
+import * as insights from 'github-insights';
 import ora from 'ora';
-
-import * as insights from '../../github-insights/dist/index';
 
 class Runner {
   spinner: ora.Ora | undefined;
