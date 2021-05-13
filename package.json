@@ -1,5 +1,5 @@
 {
-  "name": "@github-insights/cli",
+  "name": "github-insights-cli",
   "version": "1.0.0",
   "description": "CLI for github-insights",
   "main": "dist/index.js",
