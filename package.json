@@ -43,7 +43,7 @@
   "dependencies": {
     "chalk": "^4.1.1",
     "clear": "^0.1.0",
-    "commander": "^7.2.0",
+    "commander": "^8.0.0",
     "fast-sort": "^3.0.2",
     "github-insights": "^1.1.2",
     "ora": "^5.4.0"
