@@ -69,7 +69,8 @@ class Runner {
       spinner.succeed('Success');
       console.log(Repos);
       return Repos;
-    } catch (err) {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    } catch (err: any) {
       if (err.message) {
         spinner.fail(` ${err.message}`);
         return undefined;
@@ -90,7 +91,8 @@ class Runner {
       const clones = await insights.traffic.clones(user, repo, username, password);
       spinner.succeed('Success');
       return clones;
-    } catch (err) {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    } catch (err: any) {
       if (err.message) {
         spinner.fail(` ${err.message}`);
         return undefined;
@@ -111,7 +113,8 @@ class Runner {
       const views = await insights.traffic.views(user, repo, username, password);
       spinner.succeed('Success');
       return views;
-    } catch (err) {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    } catch (err: any) {
       if (err.message) {
         spinner.fail(` ${err.message}`);
         return undefined;
@@ -132,7 +135,8 @@ class Runner {
       const paths = await insights.traffic.popularPaths(user, repo, username, password);
       spinner.succeed('Success');
       return paths;
-    } catch (err) {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    } catch (err: any) {
       if (err.message) {
         spinner.fail(` ${err.message}`);
         return undefined;
@@ -153,7 +157,8 @@ class Runner {
       const referrers = await insights.traffic.popularReferrers(user, repo, username, password);
       spinner.succeed('Success');
       return referrers;
-    } catch (err) {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    } catch (err: any) {
       if (err.message) {
         spinner.fail(` ${err.message}`);
         return undefined;
@@ -184,7 +189,8 @@ class Runner {
       console.log(`--- Statistics about ${user}/${repo} ---`);
       console.log(analytics);
       return analytics;
-    } catch (err) {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    } catch (err: any) {
       if (err.message) {
         spinner.fail(` ${err.message}`);
         return undefined;
@@ -257,7 +263,8 @@ class Runner {
         `Size: ${formatBytes((ownSize + notOwnSize) * 1000)}/${formatBytes(ownSize * 1000)}`
       );
       return undefined;
-    } catch (err) {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    } catch (err: any) {
       if (err.message) {
         spinner.fail(` ${err.message}`);
         return undefined;
